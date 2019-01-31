@@ -32,5 +32,14 @@
             android:layout_height="match_parent"
             android:id="@+id/sub"
             android:text="SUBMIT"/>
+        <Button
+            android:textSize="20dp"
+            android:layout_margin="15dp"
+            android:textColor="#ffffff"
+            android:background="@drawable/buttonstyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/srch"
+            android:text="SEARCH"/>
     </LinearLayout>
     </ScrollView>
