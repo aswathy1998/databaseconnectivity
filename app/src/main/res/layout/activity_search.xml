@@ -21,8 +21,36 @@
         android:layout_height="wrap_content"
         android:id="@+id/srch2"
         android:text="SEARCH"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Email id"
+        android:id="@+id/eid"/>
     <EditText
+        android:visibility="gone"
+        android:textColor="#ffffff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/srcd"/>
+    <Button
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        android:visibility="gone"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/up"
+        android:text="UPDATE"/>
+    <Button
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        android:visibility="gone"
+        android:textColor="#ffffff"
+        android:background="@drawable/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dl"
+        android:text="DELETE"/>
 </LinearLayout>
